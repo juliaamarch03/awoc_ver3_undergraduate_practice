@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ForConfectioner.DailyReport">
+    <Position X="10.75" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="addUsedRaw" Hidden="true" />
+      <Field Name="backToMainPage" Hidden="true" />
+      <Field Name="btnAddBakedCakes" Hidden="true" />
+      <Field Name="btnAddDailyReportShops" Hidden="true" />
+      <Field Name="btnDeleteDailyReportCakes" Hidden="true" />
+      <Field Name="btnDeleteDailyReportShops" Hidden="true" />
+      <Field Name="btnDeleteRaw" Hidden="true" />
+      <Field Name="comboBoxCakes" Hidden="true" />
+      <Field Name="comboBoxNameOfShop" Hidden="true" />
+      <Field Name="comboBoxRaw" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="dataGridViewDailyReportShops" Hidden="true" />
+      <Field Name="dataGridViewProduction" Hidden="true" />
+      <Field Name="dataGridViewRaw" Hidden="true" />
+      <Field Name="dateTimePicker1" Hidden="true" />
+      <Field Name="dateTimePickerCakes" Hidden="true" />
+      <Field Name="dateTimePickerRaw" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label15" Hidden="true" />
+      <Field Name="label16" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+      <Field Name="textBoxCodeOfCakes" Hidden="true" />
+      <Field Name="textBoxCodeOfRaw" Hidden="true" />
+      <Field Name="textBoxDailyReportShops" Hidden="true" />
+      <Field Name="textBoxQuantity" Hidden="true" />
+      <Field Name="textBoxRawEmployee" Hidden="true" />
+      <Field Name="textBoxUsedRawDay" Hidden="true" />
+      <Field Name="textBoxUserCakes" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>twCiYBEAQmIEQBESQADJwAACEAQACIABiAIAAYABBkA=</HashCode>
+      <FileName>DailyReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.DB">
+    <Position X="5" Y="3" Width="2" />
+    <Members>
+      <Field Name="connection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.EditData">
+    <Position X="8.5" Y="4.5" Width="2.25" />
+    <Members>
+      <Field Name="backToMainPage" Hidden="true" />
+      <Field Name="btnAddCake" Hidden="true" />
+      <Field Name="btnAddRaw" Hidden="true" />
+      <Field Name="btnAddShop" Hidden="true" />
+      <Field Name="btnChangeCake" Hidden="true" />
+      <Field Name="btnChangeRaw" Hidden="true" />
+      <Field Name="btnChangeShop" Hidden="true" />
+      <Field Name="btnDeleteCake" Hidden="true" />
+      <Field Name="btnDeleteRaw" Hidden="true" />
+      <Field Name="btnDeleteShop" Hidden="true" />
+      <Field Name="code" Hidden="true" />
+      <Field Name="code_of_raw" Hidden="true" />
+      <Field Name="code_of_shop" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="dataGridViewCakes" Hidden="true" />
+      <Field Name="dataGridViewRaw" Hidden="true" />
+      <Field Name="dataGridViewShops" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="labelUserName" Hidden="true" />
+      <Field Name="name_of_cake" Hidden="true" />
+      <Field Name="name_of_raw" Hidden="true" />
+      <Field Name="name_of_shop" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAUAAACYA8RAQAAiBgCAC8QQAQggAiQIAAYAFBhQ=</HashCode>
+      <FileName>EditData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.LoginForm">
+    <Position X="7.75" Y="1.75" Width="2.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="passwordField" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="pictureBox4" Hidden="true" />
+      <Field Name="pictureBox5" Hidden="true" />
+      <Field Name="signInLabel" Hidden="true" />
+      <Field Name="usernameField" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAAEAACAQAACAIAAAAAAAAAIAABAAAA=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.MainPageForTheMainEmployee">
+    <Position X="0.5" Y="0.75" Width="3.5" />
+    <Members>
+      <Field Name="addDailyReport" Hidden="true" />
+      <Field Name="btnClearSearchBakedCakesByStatus" Hidden="true" />
+      <Field Name="btnClearSearchCakes" Hidden="true" />
+      <Field Name="btnClearSearchCakes2" Hidden="true" />
+      <Field Name="btnClearSearchCakesByDate" Hidden="true" />
+      <Field Name="btnClearSearchShops" Hidden="true" />
+      <Field Name="btnClearSearchUsedRawBtConfectioner" Hidden="true" />
+      <Field Name="btnClearSearchUsedRawBtDate" Hidden="true" />
+      <Field Name="btnOpenToCountRemainder" Hidden="true" />
+      <Field Name="btnSearchBakedCakesByStatus" Hidden="true" />
+      <Field Name="btnSearchCakesByConfectioner" Hidden="true" />
+      <Field Name="btnSearchCakesByDate" Hidden="true" />
+      <Field Name="btnSearchSentProductionByConfectioner" Hidden="true" />
+      <Field Name="btnSearchSentProductionByDate" Hidden="true" />
+      <Field Name="btnSearchUsedRawByConfectioner" Hidden="true" />
+      <Field Name="btnSearchUsedRawByDate" Hidden="true" />
+      <Field Name="closeProgram" Hidden="true" />
+      <Field Name="comboBoxDailyReportShops" Hidden="true" />
+      <Field Name="comboBoxNameUserRaw" Hidden="true" />
+      <Field Name="comboBoxUsersCakes" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="dataGridViewBakedCakes" Hidden="true" />
+      <Field Name="dataGridViewSentToShops" Hidden="true" />
+      <Field Name="dataGridViewUsedRaw" Hidden="true" />
+      <Field Name="dateTimePickerSearchCakes" Hidden="true" />
+      <Field Name="dateTimePickerSentShops" Hidden="true" />
+      <Field Name="dateTimePickerUsedRawDate" Hidden="true" />
+      <Field Name="editData" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="tabControlBakedCakes" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+      <Field Name="textBoxStatusCake" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QADAAIEEFjBEwDYEAYilOBgSAIAoEPQIAIBIxQJFaiA=</HashCode>
+      <FileName>MainPageForTheMainEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.Program">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.Remainder">
+    <Position X="4.75" Y="5.5" Width="2.75" />
+    <Members>
+      <Field Name="btnBackToMainPage" Hidden="true" />
+      <Field Name="btnChangeRemainderOfRaw" Hidden="true" />
+      <Field Name="btnDeleteRemainderOfRaw" Hidden="true" />
+      <Field Name="btnFindRemainder" Hidden="true" />
+      <Field Name="comboBoxRaw" Hidden="true" />
+      <Field Name="command" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="connection" Hidden="true" />
+      <Field Name="dataGridViewRemainderOfRaw" Hidden="true" />
+      <Field Name="dateTimePickerFirstDate" Hidden="true" />
+      <Field Name="dateTimePickerLastDay" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="labelusername" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="remainderL" Hidden="true" />
+      <Field Name="sumOfRaw" Hidden="true" />
+      <Field Name="textBoxCode" Hidden="true" />
+      <Field Name="textBoxQuantityForMonth" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAAgBAAgCQAABQAIYGFIAACAARAAAqEAAABgQAgAAg=</HashCode>
+      <FileName>Remainder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.Properties.Resources" Collapsed="true">
+    <Position X="13.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAAgAAABECAAAUAAAAAAACAAAAAAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForConfectioner.Properties.Settings" Collapsed="true">
+    <Position X="18" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
